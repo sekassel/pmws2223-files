@@ -18,9 +18,34 @@ public class RandomGenerator
 		// - set hp and maxHp to the same value
 		// link the monsters to the player
 		// - set the first monster as the current monster
-		new Monster().setName("Leafy").setLvl(1).setExp(0).setHp(11).setMaxHp(11).setType(PLANT).setPlayer(player).setCurrentPlayer(player);
-		new Monster().setName("Flameo").setLvl(1).setExp(0).setHp(12).setMaxHp(12).setType(FIRE).setPlayer(player);
-		new Monster().setName("Liquido").setLvl(1).setExp(0).setHp(10).setMaxHp(10).setType(WATER).setPlayer(player);
+		new Monster()
+			.setName("Leafy")
+			.setLvl(1)
+			.setExp(0)
+			.setHp(11)
+			.setMaxHp(11)
+			.setType(PLANT)
+			.withAbilities(TACKLE, SOLARBEAM)
+			.setPlayer(player)
+			.setCurrentPlayer(player);
+		new Monster()
+			.setName("Flameo")
+			.setLvl(1)
+			.setExp(0)
+			.setHp(12)
+			.setMaxHp(12)
+			.setType(FIRE)
+			.withAbilities(SCRATCH, FIREBALL)
+			.setPlayer(player);
+		new Monster()
+			.setName("Liquido")
+			.setLvl(1)
+			.setExp(0)
+			.setHp(10)
+			.setMaxHp(10)
+			.setType(WATER)
+			.withAbilities(TACKLE, WATERGUN)
+			.setPlayer(player);
 
 		return player;
 	}
