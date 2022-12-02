@@ -58,22 +58,23 @@ public class RandomGenerator
 			.setMaxHp(14)
 			.withAbilities(SCRATCH, ICEBOLT)
 			.setEncounter(encounter);
-		new Monster()
-			.setName("Golem")
-			.setType(EARTH)
-			.setLvl(1)
-			.setHp(16)
-			.setMaxHp(16)
-			.withAbilities(SCRATCH, EARTHQUAKE)
-			.setEncounter(encounter);
-		new Monster()
-			.setName("Ent")
-			.setType(PLANT)
-			.setLvl(1)
-			.setHp(18)
-			.setMaxHp(18)
-			.withAbilities(SCRATCH, SOLARBEAM)
-			.setEncounter(encounter);
+		// More options:
+		//		new Monster()
+		//			.setName("Golem")
+		//			.setType(EARTH)
+		//			.setLvl(1)
+		//			.setHp(16)
+		//			.setMaxHp(16)
+		//			.withAbilities(SCRATCH, EARTHQUAKE)
+		//			.setEncounter(encounter);
+		//		new Monster()
+		//			.setName("Ent")
+		//			.setType(PLANT)
+		//			.setLvl(1)
+		//			.setHp(18)
+		//			.setMaxHp(18)
+		//			.withAbilities(SCRATCH, SOLARBEAM)
+		//			.setEncounter(encounter);
 
 		return encounter;
 	}
