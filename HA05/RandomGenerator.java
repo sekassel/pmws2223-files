@@ -1,10 +1,10 @@
-package de.uniks.pmws2223.pmon.service;
+package de.uniks.pmws2223.service;
 
-import de.uniks.pmws2223.pmon.model.Encounter;
-import de.uniks.pmws2223.pmon.model.Monster;
-import de.uniks.pmws2223.pmon.model.Player;
+import de.uniks.pmws2223.model.Encounter;
+import de.uniks.pmws2223.model.Monster;
+import de.uniks.pmws2223.model.Player;
 
-import static de.uniks.pmws2223.pmon.Constants.*;
+import static de.uniks.pmws2223.Constants.*;
 
 public class RandomGenerator
 {

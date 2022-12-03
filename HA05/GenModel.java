@@ -1,4 +1,4 @@
-package de.uniks.pmws2223.pmon.model;
+package de.uniks.pmws2223.model;
 
 import org.fulib.builder.ClassModelDecorator;
 import org.fulib.builder.ClassModelManager;

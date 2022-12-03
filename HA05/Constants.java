@@ -1,7 +1,7 @@
-package de.uniks.pmws2223.pmon;
+package de.uniks.pmws2223;
 
-import de.uniks.pmws2223.pmon.model.Ability;
-import de.uniks.pmws2223.pmon.model.Type;
+import de.uniks.pmws2223.model.Ability;
+import de.uniks.pmws2223.model.Type;
 
 public class Constants
 {
