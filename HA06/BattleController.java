@@ -28,6 +28,10 @@ public class BattleController implements Controller
 	public Parent render() throws IOException
 	{
 		// TODO
+		// Load FXML
+		// Lookup Leave button
+		// Set Leave button onAction
+		// in onAction: Switch to Login
 		return null;
 	}
 

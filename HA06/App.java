@@ -1,6 +1,6 @@
 package de.uniks.pmws2223;
 
-import de.uniks.pmws2223.controller.AppController;
+import de.uniks.pmws2223.controller.LoginController;
 import de.uniks.pmws2223.controller.Controller;
 import javafx.application.Application;
 import javafx.scene.Scene;

@@ -28,6 +28,10 @@ public class LoginController implements Controller
 	public Parent render() throws IOException
 	{
 		// TODO
+		// Load FXML
+		// Lookup Start button
+		// Set Start button onAction
+		// in onAction: Switch to Battle
 		return null;
 	}
 
