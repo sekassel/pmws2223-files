@@ -25,7 +25,7 @@ public class BattleController implements Controller
 	}
 
 	@Override
-	public Parent render()
+	public Parent render() throws IOException
 	{
 		// TODO
 		return null;
